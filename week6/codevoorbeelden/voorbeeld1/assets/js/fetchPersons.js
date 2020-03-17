@@ -5,6 +5,11 @@ function loaded() {
     buttonGetAllPersons.addEventListener("click", handleGetAllPersons);
     let buttonGetPerson = document.getElementById('button_get_person');
     buttonGetPerson.addEventListener("click", handleGetPerson);
+
+    //config handleGetId
+    let buttonGetId= document.getElementById('button_get_id');
+    buttonGetId.addEventListener("click", handleGetId);
+
     let buttonPost = document.getElementById('button_post_person');
     buttonPost.addEventListener("click", handlePostPerson);
 }
@@ -60,6 +65,33 @@ function handleGetPerson() {
     	        output.appendChild(document.createTextNode(error));
     	    });
 	}
+}
+
+//functie handleGetId
+function handleGetId() {
+    let url = 'http://localhost:3000/persons/';
+    let output = document.getElementById("div_output");
+    let name = document.getElementById("txt_name_search").value;
+    makeElementEmpty(output);
+    if (name.trim()!=''){
+        fetch(`${url}?name=${name}`)
+            .then((response) => {
+                if (response.status == 200) {
+                    return response.json();
+                } else {
+                    throw `error with status ${response.status}`;
+                }
+            })
+            .then((person) => {
+                let data = [];
+                data.push([person.name, person.id]);
+                let table = makeTable(data);
+                output.appendChild(table);
+            })
+            .catch((error) => {
+                output.appendChild(document.createTextNode(error));
+            });
+    }
 }
 
 
