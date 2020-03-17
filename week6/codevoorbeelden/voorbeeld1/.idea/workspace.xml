@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb4a9919-7ee8-4abe-b246-9d845d7405ec" name="Default Changelist" comment="" />
+    <list default="true" id="cb4a9919-7ee8-4abe-b246-9d845d7405ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/fetchPersons.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/fetchPersons.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +40,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="fetchPersons.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/js/fetchPersons.js" working-dir="$PROJECT_DIR$/assets/js">
+    <configuration name="fetchPersons.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/js/fetchPersons.js" working-dir="$PROJECT_DIR$/assets/js">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.fetchPersons.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584446749177</updated>
       <workItem from="1584446753564" duration="1247000" />
-      <workItem from="1584448647068" duration="3248000" />
+      <workItem from="1584448647068" duration="3873000" />
     </task>
     <servers />
   </component>

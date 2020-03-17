@@ -82,9 +82,11 @@ function handleGetId() {
                     throw `error with status ${response.status}`;
                 }
             })
-            .then((person) => {
+            .then((persons) => {
                 let data = [];
-                data.push([person.name, person.id]);
+                for (let person of persons) {
+                    data.push([person.id, person.name]);
+                }
                 let table = makeTable(data);
                 output.appendChild(table);
             })
