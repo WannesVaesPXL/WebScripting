@@ -130,6 +130,9 @@ function handlePostPerson() {
         });
 }
 
+//functie handleChangeName
+
+
 
 function makeElementEmpty(element) {
     while (element.hasChildNodes()) {
