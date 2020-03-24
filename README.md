@@ -1,2 +1,2 @@
 # WebScripting
-# Oefeningen Week 6
+Thuiswerk webscripting
