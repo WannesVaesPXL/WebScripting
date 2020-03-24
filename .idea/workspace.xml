@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="13941934-766b-4ce6-ad60-1e7f1ea56a22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voorbeeldexamen/uittezenden_webscripting/oef1/oef1.js" beforeDir="false" afterPath="$PROJECT_DIR$/voorbeeldexamen/uittezenden_webscripting/oef1/oef1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voorbeeldexamen/uittezenden_webscripting/oef2/js/fetchShips.js" beforeDir="false" afterPath="$PROJECT_DIR$/voorbeeldexamen/uittezenden_webscripting/oef2/js/fetchShips.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +39,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.fetchShips.js">
+    <configuration name="fetchShips.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/voorbeeldexamen/uittezenden_webscripting/oef2/js/fetchShips.js" working-dir="$PROJECT_DIR$/voorbeeldexamen/uittezenden_webscripting/oef2/js">
+      <method v="2" />
+    </configuration>
     <configuration name="oef1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/voorbeeldexamen/uittezenden_webscripting/oef1/oef1.js" working-dir="$PROJECT_DIR$/voorbeeldexamen/uittezenden_webscripting/oef1">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.fetchShips.js" />
         <item itemvalue="Node.js.oef1.js" />
       </list>
     </recent_temporary>
@@ -59,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585056211637</updated>
-      <workItem from="1585056213839" duration="6007000" />
+      <workItem from="1585056213839" duration="9748000" />
     </task>
     <servers />
   </component>
